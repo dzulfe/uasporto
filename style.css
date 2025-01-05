@@ -1,0 +1,134 @@
+
+.navbar {
+  background-color: #0b0356;
+}
+
+
+.navbar a, .navbar .navbar-brand {
+  color: white;
+}
+
+.navbar a:hover {
+  color: #f0f0f0; 
+}
+
+
+body {
+  background: linear-gradient(to right, #0c0387, #000dff, #0c0387);
+
+  color: #fff;
+  font-family: 'Helvetica Neue', Helvetica, Arial, sans-serif;
+  margin: 0;
+  padding: 0;
+}
+
+.hero-section {
+  min-height: 100vh;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 0 5%;
+  background: linear-gradient(to right, #0c0387, #000dff, #0c0387);
+}
+
+
+.hero-content h1 {
+  font-weight: bold;
+  font-size: 3rem;
+  color: #fff;
+    
+  }
+
+.hero-content h1 span {
+  color: #ff0000;
+  font-weight: normal;
+}
+
+.btn-custom {
+  background: linear-gradient(135deg, #a8008c, #d62839);
+  color: white;
+  border-radius: 30px;
+  padding: 12px 25px;
+  font-size: 1rem;
+  font-weight: bold;
+  text-transform: uppercase;
+  transition: all 0.3s ease-in-out;
+  box-shadow: 0px 4px 6px rgba(0, 0, 0, 0.2);
+}
+
+.btn-custom:hover {
+  background: linear-gradient(135deg, #ff0019, #a8008c);
+  transform: translateY(-3px);
+  box-shadow: 0px 6px 10px rgba(0, 0, 0, 0.3);
+}
+
+.nav-link {
+  color: white !important;
+  text-decoration: none;
+  margin-right: 15px;
+  transition: color 0.3s ease-in-out;
+}
+
+.nav-link:hover {
+  color: #d62839 !important;
+}
+
+.hire-btn {
+  background-color: #ff0000;
+  border: 2px solid rgb(255, 255, 255);
+  color: white;
+  border-radius: 25px;
+  padding: 8px 20px;
+  font-size: 1rem;
+  transition: all 0.3s ease-in-out;
+}
+
+.hire-btn:hover {
+  background-color: #d62839;
+  color: white;
+  transform: scale(1.1);
+}
+
+.hero-image img {
+  width: 100%;
+  max-width: 350px;
+  border-radius: 15px;
+  box-shadow: 0px 6px 15px rgba(0, 0, 0, 0.5);
+}
+
+#education {
+  padding-top: 5rem;
+  background: linear-gradient(to right, #0c0387, #000dff, #0c0387);
+  font-style: italic;
+  color: #ff0000;
+  
+}
+#education h2 {
+  color: white;
+}
+
+#education table {
+  color: white;
+}
+
+#projects {
+  padding-top: 5rem;
+  font-style: italic;
+  background: linear-gradient(to right, #0c0387, #000dff, #0c0387);
+}
+footer {
+  background-color: #0b0356   ;
+  color: white; 
+}
+
+footer {
+  background-color: #0b0356;
+  color: white; 
+}
+
+
+footer a:hover {
+  color: #f0f0f0;
+}
+
+
